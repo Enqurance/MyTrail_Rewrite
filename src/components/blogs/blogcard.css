@@ -1,0 +1,46 @@
+.card-style {
+    margin-top: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-style:hover {
+    transform: scale(1.05);
+}
+
+.card-title-style-light {
+    font-family: Josefin Sans, serif;
+    font-size: larger;
+    font-weight: 500;
+    color: #0133B3;
+}
+
+.card-title-style {
+    font-family: Josefin Sans, serif;
+    font-size: larger;
+    font-weight: 500;
+    color: dodgerblue;
+}
+
+.card-time-style-light {
+    font-family: Josefin Sans, serif;
+    font-weight: 380;
+    color: gray;
+}
+
+.card-time-style {
+    font-family: Josefin Sans, serif;
+    font-weight: 380;
+}
+
+.card-text-style-light {
+    font-family: Josefin Sans, serif;
+    font-weight: 380;
+    line-height: 1.5;
+    color: black;
+}
+
+.card-text-style {
+    font-family: Josefin Sans, serif;
+    font-weight: 380;
+    line-height: 1.5;
+}

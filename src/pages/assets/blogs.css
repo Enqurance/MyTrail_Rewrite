@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.blogs-head {
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: "Josefin Sans", serif;
+    color: royalblue;
+    padding-left: 2%;
+}
+
+.card-grid-style {
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.post-title {
+    font-family: Josefin Sans, serif;
+    font-size: 30px;
+    padding-left: 1rem;
+}
+
+.my-caption {
+    font-family: Josefin Sans, serif;
+    color: rgb(128, 128, 128);
+    font-style: italic;
+}
+
+.text-style {
+    font-family: Josefin Sans, serif;
+    font-weight: 350;
+    line-height: 1.5;
+}

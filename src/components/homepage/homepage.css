@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.avatar-text {
+    font-family: Josefin Sans, serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.avatar-pic {
+    padding-right: 20px;
+}
+
+.self-intro {
+    font-family: Josefin Sans, serif;
+    line-height: 1.5;
+    font-weight: 380;
+    font-size: large;
+    padding-top: 20px;
+}
+
+.self-intro-bold {
+    font-family: Josefin Sans, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.my-caption {
+    font-family: Josefin Sans, serif;
+    color: rgb(128, 128, 128);
+    font-style: italic;
+}
+
+.site-intro {
+    font-family: Josefin Sans, serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.year-text {
+    color: #0133B3;
+    font-size: xx-large;
+    font-family: Josefin Sans, serif;
+}
+
+.date-text {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    font-size: large;
+    font-family: Josefin Sans, serif;
+    font-weight: bolder;
+    margin-left: 0.5rem;
+}
+
+.info-text {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    font-family: Josefin Sans, serif;
+    font-weight: 400;
+}
+
+.more-text {
+    font-size: x-large;
+    font-family: Josefin Sans, serif;
+}
