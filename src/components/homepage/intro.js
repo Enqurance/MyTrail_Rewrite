@@ -1,4 +1,4 @@
-import {Button, Grid, styled, Typography, useTheme} from "@mui/material";
+import {Grid, Typography, useTheme} from "@mui/material";
 import "./homepage.css"
 import MyImageList from "../common/myimagelist";
 import Carousel from 'react-material-ui-carousel';
@@ -60,7 +60,12 @@ const MyName = () => {
                 <span style={{color: "#4286F3"}}>u</span>
                 <span style={{color: "#EB4335"}}>r</span>
                 <span style={{color: "#FBC805"}}>!</span>
-                <Grid style={{whiteSpace: 'pre-wrap', color: theme.palette.mode === "light" ? "#0133B3" : "#ffffff", fontSize: 25, paddingTop: 20}} >
+                <Grid style={{
+                    whiteSpace: 'pre-wrap',
+                    color: theme.palette.mode === "light" ? "#0133B3" : "#ffffff",
+                    fontSize: 25,
+                    paddingTop: 20
+                }}>
                     Welcome to Enqurnace's Site~
                 </Grid>
             </Grid>
