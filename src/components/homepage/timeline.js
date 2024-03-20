@@ -10,7 +10,7 @@ import "./homepage.css"
 
 const Timeline = () => {
     return (<Box>
-        <Grid container paddingLeft={5}>
+        <Grid container>
             <Grid item xs={12} className="site-intro">
                 This site marks my important trails
             </Grid>
