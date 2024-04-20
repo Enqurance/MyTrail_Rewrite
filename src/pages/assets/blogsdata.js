@@ -31,5 +31,13 @@ export const items = {
         alt: "Yantai",
         link: "/posts/2023/yantai"
     },
+    "malaysia": {
+        title: "Trip to Kota Kinabalu, Malaysia🇲🇾",
+        time: "2024.1.4 - 2024.1.6",
+        text: "I went to Kota Kinabalu, Malaysia🇲🇾 for a weekend tour🏖~️",
+        image: "https://raw.githubusercontent.com/Enqurance/Figures/main/202404202052953.jpeg",
+        alt: "Malaysia",
+        link: "/posts/2024/malaysia"
+    },
     "changsha": {}
 }

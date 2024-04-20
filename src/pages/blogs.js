@@ -21,6 +21,9 @@ const Blogs = () => {
                 <BlogCard info={items.vietnam}></BlogCard>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
+                <BlogCard info={items.malaysia}></BlogCard>
+            </Grid>
+            <Grid item xs={12} md={6} className="card-grid-style">
                 <BlogCard info={items.japan}></BlogCard>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
@@ -29,6 +32,7 @@ const Blogs = () => {
             <Grid item xs={12} style={{paddingTop: 40}}>
                 <Divider></Divider>
             </Grid>
+
         </Grid>
     )
 }

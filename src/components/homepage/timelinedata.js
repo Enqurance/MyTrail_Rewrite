@@ -7,10 +7,10 @@ const timeline_data = {
         logo: "flight"
     },
     Malaysia: {
-        link: "",
+        link: "/posts/2024/malaysia",
         color: "#EF6C00",
         time: "1.3 - 1.6",
-        context: "I visited Kota Kinabalu, Malaysia🇲🇾",
+        context: "I visited Kota Kinabalu, Malaysia🇲🇾【Blog】",
         logo: "flight"
     },
     NTU: {
