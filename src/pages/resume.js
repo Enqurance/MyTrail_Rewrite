@@ -14,7 +14,7 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80, height: 80}}>
+                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
@@ -36,7 +36,7 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {PKUSE.map((item) => (<ImageListItem key={item.img} style={{width: 80, height: 40}}>
+                    {PKUSE.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
@@ -55,7 +55,7 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {NTU.map((item) => (<ImageListItem key={item.img} style={{width: 80, height: 105}}>
+                    {NTU.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
@@ -74,7 +74,7 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {HKU.map((item) => (<ImageListItem key={item.img} style={{width: 80, height: 90}}>
+                    {HKU.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
@@ -84,7 +84,7 @@ const Resume = () => {
                     </ImageListItem>))}
                 </ImageList>
             </Item>
-            <Item style={{paddingLeft: '25px', paddingTop: '20px'}}>
+            <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
                 <Stack className="school-title">University of Hong Kong</Stack>
                 <Stack className="text-content">Intern(Onsite) - Department of Computer Science</Stack>
                 <Stack className="text-content">2023.7 - 2023.9, Hong Kong, China</Stack>
@@ -93,7 +93,7 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80, height: 80}}>
+                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
@@ -122,7 +122,7 @@ const Resume = () => {
                 Frameworks & Tools:
             </Grid>
             <Grid item xs={12} className="text-content">
-                React, Vue, Django, Vivado, TensorFlow, Docker
+                React, Pytorch(Transformers, GNN, etc.), Vue, Linux, CMake, Django, Vivado
             </Grid>
             <Grid item xs={12} className="sub-sub-title">
                 Languages:
