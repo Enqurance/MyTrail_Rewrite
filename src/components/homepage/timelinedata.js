@@ -1,4 +1,19 @@
 const timeline_data = {
+    Japan_2024: {
+        link: "",
+        color: "#42A5F5",
+        time: "7.2 - 7.9",
+        context: "I visited Japan🇯🇵 for a graduation tour.",
+        logo: "flight"
+    },
+    Graduate_BUAA: {
+        link: "posts/2024/graduate",
+        color: "#42A5F5",
+        time: "7.1",
+        context: "I graduated from Beihang University (BUAA)🧑‍🎓 and obtained" +
+            " B.E. degree in Computer Science.",
+        logo: "school"
+    },
     Vietnam: {
         link: "posts/2024/vietnam",
         color: "#66BB6A",

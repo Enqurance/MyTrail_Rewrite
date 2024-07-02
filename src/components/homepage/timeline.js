@@ -1,7 +1,16 @@
 import * as React from 'react';
 import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
-import {CalendarMonth, Flight, Home, Quiz, Science, School, Medication, Pets} from "@mui/icons-material";
+import {
+    CalendarMonth,
+    Flight,
+    Home,
+    Quiz,
+    Science,
+    School,
+    Medication,
+    Pets,
+} from "@mui/icons-material";
 import Grid from "@mui/material/Grid";
 import Stack from '@mui/material/Stack';
 import Box from "@mui/material/Box";
@@ -20,6 +29,9 @@ const Timeline = () => {
                 </Divider>
             </Grid>
             <Grid item xs={12} paddingLeft={2}>
+                <Calendar color={"#42A5F5"} time={"July"}/>
+                <Module info={timeline_data.Japan_2024}/>
+                <Module info={timeline_data.Graduate_BUAA}/>
                 <Calendar color={"#66BB6A"} time={"February"}/>
                 <Module info={timeline_data.Vietnam}/>
                 <Calendar color={"#EF6C00"} time={"January"}/>
@@ -50,18 +62,18 @@ const Timeline = () => {
                 <Calendar color={"#81C784"} time={"February"}/>
                 <Module info={timeline_data.School}/>
             </Grid>
-            <Grid item xs={12} style={{paddingTop: 20}} className="year-text">
-                <Divider textAlign="left">
-                    2022
-                </Divider>
-            </Grid>
-            <Grid item xs={12} paddingLeft={2}>
-                <Calendar color={"#42A5F5"} time={"December"}></Calendar>
-                <Module info={timeline_data.Corona}/>
-                <Module info={timeline_data.Oubao}/>
-                <Calendar color={"#2F7D32"} time={"November"}></Calendar>
-                <Module info={timeline_data.Pendamic}/>
-            </Grid>
+            {/*<Grid item xs={12} style={{paddingTop: 20}} className="year-text">*/}
+            {/*    <Divider textAlign="left">*/}
+            {/*        2022*/}
+            {/*    </Divider>*/}
+            {/*</Grid>*/}
+            {/*<Grid item xs={12} paddingLeft={2}>*/}
+            {/*    <Calendar color={"#42A5F5"} time={"December"}></Calendar>*/}
+            {/*    <Module info={timeline_data.Corona}/>*/}
+            {/*    <Module info={timeline_data.Oubao}/>*/}
+            {/*    <Calendar color={"#2F7D32"} time={"November"}></Calendar>*/}
+            {/*    <Module info={timeline_data.Pendamic}/>*/}
+            {/*</Grid>*/}
         </Grid>
     </Box>);
 }
