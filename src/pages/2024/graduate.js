@@ -5,7 +5,6 @@ import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import {Flight} from "@mui/icons-material";
 import {orange} from "@mui/material/colors";
-import MyImageList from "../../components/common/myimagelist";
 
 const Graduate = () => {
     return (
@@ -28,20 +27,20 @@ const Graduate = () => {
     )
 }
 
-const flying = {
-    caption: "正在前往Kota Kinabalu",
-    images: [
-        {
-            img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202404201637873.jpeg",
-            title: "flying",
-        },
-        {
-            img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202404201641428.jpeg",
-            title: "land",
-        }
-    ],
-    width: "60%",
-    col: 2
-}
+// const flying = {
+//     caption: "正在前往Kota Kinabalu",
+//     images: [
+//         {
+//             img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202404201637873.jpeg",
+//             title: "flying",
+//         },
+//         {
+//             img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202404201641428.jpeg",
+//             title: "land",
+//         }
+//     ],
+//     width: "60%",
+//     col: 2
+// }
 
 export default Graduate
