@@ -27,7 +27,27 @@ const Resume = () => {
             <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
                 <Stack className="school-title">Beihang University(Former BUAA)</Stack>
                 <Stack className="text-content">Bachelor of Engineering - Computer Science and Engineering</Stack>
-                <Stack className="text-content">2020.9 - Now, Beijing, China(Expected Completion: 2024)</Stack>
+                <Stack className="text-content">2020.9 - 2024.7, Beijing, China</Stack>
+            </Item>
+        </Stack>
+        <Stack direction="row">
+            <Item>
+                <ImageList cols={1}>
+                    {NUS.map((item) => (<ImageListItem key={item.img}
+                                                       style={{width: 60, marginRight: 10, marginLeft: 10}}>
+                        <img
+                            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                            alt={item.title}
+                            loading="lazy"
+                        />
+                    </ImageListItem>))}
+                </ImageList>
+            </Item>
+            <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
+                <Stack className="school-title">National University of Singapore(NUS)</Stack>
+                <Stack className="text-content">Master of Science - Computer Science</Stack>
+                <Stack className="text-content">2024.8 - Now, Singapore(Expected Completion: 2026.1)</Stack>
             </Item>
         </Stack>
         <Grid container style={{paddingTop: '20px'}}>
@@ -141,6 +161,9 @@ const BUAA = [{
     img: 'https://raw.githubusercontent.com/Enqurance/Figures/main/202402162154743.png', title: 'BUAA'
 }]
 
+const NUS = [{
+    img: 'https://raw.githubusercontent.com/Enqurance/Figures/main/202408051445720.png', title: 'NUS'
+}]
 const HKU = [{
     img: 'https://raw.githubusercontent.com/Enqurance/Figures/main/202403172036004.png', title: 'HKU'
 }]
