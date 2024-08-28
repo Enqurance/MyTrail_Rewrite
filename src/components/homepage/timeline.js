@@ -29,6 +29,8 @@ const Timeline = () => {
                 </Divider>
             </Grid>
             <Grid item xs={12} paddingLeft={2}>
+                <Calendar color={"#FBC02D"} time={"August"}/>
+                <Module info={timeline_data.Begin_NUS}/>
                 <Calendar color={"#42A5F5"} time={"July"}/>
                 <Module info={timeline_data.Japan_2024}/>
                 <Module info={timeline_data.Graduate_BUAA}/>
@@ -59,8 +61,8 @@ const Timeline = () => {
                 <Module info={timeline_data.HKU}/>
                 <Calendar color={"#00BCD4"} time={"June"}/>
                 <Module info={timeline_data.Changbai}/>
-                <Calendar color={"#81C784"} time={"February"}/>
-                <Module info={timeline_data.School}/>
+                {/*<Calendar color={"#81C784"} time={"February"}/>*/}
+                {/*<Module info={timeline_data.School}/>*/}
             </Grid>
             {/*<Grid item xs={12} style={{paddingTop: 20}} className="year-text">*/}
             {/*    <Divider textAlign="left">*/}

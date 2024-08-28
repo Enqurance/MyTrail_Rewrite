@@ -16,7 +16,7 @@ const Footer = () => {
                     <Link href={"https://github.com/Enqurance"}>
                         <GitHubIcon fontSize="large"></GitHubIcon>
                     </Link>
-                    <Link href={"mailto:Enqurance@Outlook.com"}>
+                    <Link href={"mailto:lin.zijie@u.nus.edu"}>
                         <EmailIcon fontSize="large" style={{marginLeft: "10px", marginRight: "5px"}}></EmailIcon>
                     </Link>
                     <Link href={"https://www.linkedin.com/in/%E5%AD%90%E6%9D%B0-%E6%9E%97-604690296/?locale=en_US"}>

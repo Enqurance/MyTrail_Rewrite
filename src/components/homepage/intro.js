@@ -14,23 +14,22 @@ const SelfIntro = () => {
             <Grid item xs={12} className="self-intro">
                 Hello, my name is Zijie Lin and Enqurnace is my
                 <span className="self-intro-bold"> nick name</span>
-                , I am currently a senior student of Beihang University
-                (Also known as BUAA) and I major in Computer Science and Technology.
-                I live in both Beijing and Foshan, China😘.
+                , I am currently a master student of National University of Singapore
+                (NUS). Before that, I obtained my bachelor's degree in Computer Science
+                from Beihang University(Also known as BUAA).
+                I live in Beijing, Foshan🇨🇳 and Singapore🇸🇬.
             </Grid>
             <Grid item xs={12} className="self-intro">
                 I have many hobbies, among which programming, photography, and travelling are my favorites.
+                I also play League of Legends(LOL) and Valorant for recreation😆.
+                I do LLM related research topics at both BUAA and NUS.
             </Grid>
             <Grid item xs={12}>
                 <MyImageList info={changbai}/>
             </Grid>
             <Grid item xs={12} className="self-intro">
-                I am now looking for a MSc program. In the future,
-                perhaps I would like to try a PhD program, since I suppose myself a studious person👆.
-            </Grid>
-            <Grid item xs={12} className="self-intro">
                 I own two lovely cats🐱, Xiangxiang and Oubao. Together with my parents,
-                I live a happy life.
+                I live a happy life. I wish for them to be healthy and joyful everyday.
             </Grid>
             <Grid item xs={12}>
                 <MyImageList info={cats}/>
@@ -106,22 +105,34 @@ const cats = {
     "caption": "Xiangxiang & Oubao",
     "images": [
         {
-            "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/202403031842945.png",
-            "title": "Cats",
+            "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281602980.jpg",
+            "title": "Ou",
+        },
+        {
+            "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281602731.png",
+            "title": "Xiang",
         }
     ],
     "width": "100%",
-    "col": 1
+    "col": 2
 }
 
 const items = [
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281602813.png",
+        title: "My Graduation, the photo is taken at THU"
+    },
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281605982.png",
+        title: "Visited Japan with Raywha Chen, X. Tuo(Now Ph.D at THU), Q. Zhang(Now MA. at THU), 2024"
+    },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311012342376.png",
         title: "HKU, 2023.7-2023.9",
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020000127.png",
-        title: "Dr. Chen(Now Ph.D at THU)",
+        title: "Raywha Chen(Now Ph.D at THU)",
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020002390.jpeg",
@@ -133,15 +144,15 @@ const items = [
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020806412.png",
-        title: "QZY(Now MA. at BUAA)"
+        title: "ZY Qu(Now MA. at BUAA)"
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020010662.jpeg",
-        title: "Sia(Now MA. at HUST) and James(Now Ph.D at SYSU)"
+        title: "Sia Yang(Now MA. at HUST) and James Jian(Now Ph.D at SYSU)"
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020017110.png",
-        title: "Erenrat(Now MA. at ANU)"
+        title: "Erenrat Zeng(Now MA. at ANU)"
     }
 ]
 export default SelfIntro

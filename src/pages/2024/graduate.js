@@ -3,17 +3,16 @@ import "../pages_styles.css"
 import Markdown from 'react-markdown'
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
-import {Flight} from "@mui/icons-material";
-import {orange} from "@mui/material/colors";
+import {School} from "@mui/icons-material";
 
 const Graduate = () => {
     return (
         <Grid container>
             <Grid item xs={12}>
                 <Stack direction="row">
-                    <Flight sx={{fontSize: 40}} style={{color: orange[800], opacity: 1}}></Flight>
-                    <Grid className="post-title" style={{color: orange[800], opacity: 1}}>
-                        Jan. 2024 · Malaysia🇲🇾
+                    <School sx={{fontSize: 40}} style={{color: "#42A5F5", opacity: 1}}></School>
+                    <Grid className="post-title" style={{color: "#42A5F5", opacity: 1}}>
+                        My Graduation
                     </Grid>
                 </Stack>
             </Grid>

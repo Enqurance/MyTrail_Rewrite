@@ -1,4 +1,11 @@
 const timeline_data = {
+    Begin_NUS: {
+        link: "",
+        color: "#FBC02D",
+        time: "8.1",
+        context: "I began my study at NUS.",
+        logo: "school"
+    },
     Japan_2024: {
         link: "",
         color: "#42A5F5",
