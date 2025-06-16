@@ -1,4 +1,25 @@
 const timeline_data = {
+    Xiaomi: {
+        link: "",
+        color: "#FF6900",
+        time: "5.22",
+        context: "I start an internship as an algorithm engineer at Xiaomi. I work on Large Language Models.",
+        logo: "work"
+    },
+    Japan_2025: {
+        link: "",
+        color: "#42A5F5",
+        time: "1.12 - 1.18",
+        context: "I visited Japan🇯🇵 with Dr. Guo again. This time we travelled in Hokkaido❄️",
+        logo: "flight"
+    },
+    Australia: {
+        link: "posts/2024/australia",
+        color: "#00BCD4",
+        time: "12.10",
+        context: "I travelled to Australia for holiday.",
+        logo: "flight"
+    },
     Begin_NUS: {
         link: "",
         color: "#FBC02D",

@@ -9,7 +9,7 @@ import {
     Science,
     School,
     Medication,
-    Pets,
+    Pets, Work,
 } from "@mui/icons-material";
 import Grid from "@mui/material/Grid";
 import Stack from '@mui/material/Stack';
@@ -25,10 +25,23 @@ const Timeline = () => {
             </Grid>
             <Grid item xs={12} style={{paddingTop: 20}} className="year-text">
                 <Divider textAlign="left">
+                    2025
+                </Divider>
+            </Grid>
+            <Grid item xs={12} paddingLeft={2}>
+                <Calendar color={"#FF6900"} time={"May"}/>
+                <Module info={timeline_data.Xiaomi}/>
+                <Calendar color={"#42A5F5"} time={"January"}/>
+                <Module info={timeline_data.Japan_2025}/>
+            </Grid>
+            <Grid item xs={12} style={{paddingTop: 20}} className="year-text">
+                <Divider textAlign="left">
                     2024
                 </Divider>
             </Grid>
             <Grid item xs={12} paddingLeft={2}>
+                <Calendar color={"#00BCD4"} time={"December"}/>
+                <Module info={timeline_data.Australia}/>
                 <Calendar color={"#FBC02D"} time={"August"}/>
                 <Module info={timeline_data.Begin_NUS}/>
                 <Calendar color={"#42A5F5"} time={"July"}/>
@@ -49,9 +62,9 @@ const Timeline = () => {
                 <Module info={timeline_data.NTU}/>
                 <Calendar color={"#6D4C41"} time={"November"}/>
                 <Module info={timeline_data.Japan}/>
-                <Calendar color={"#2F7D32"} time={"October"}/>
-                <Module info={timeline_data.Yantai}/>
-                <Module info={timeline_data.National}/>
+                {/*<Calendar color={"#2F7D32"} time={"October"}/>*/}
+                {/*<Module info={timeline_data.Yantai}/>*/}
+                {/*<Module info={timeline_data.National}/>*/}
                 <Calendar color={"#EF6C00"} time={"September"}/>
                 <Module info={timeline_data.Changsha}/>
                 <Module info={timeline_data.Xiaan}/>
@@ -59,8 +72,8 @@ const Timeline = () => {
                 <Module info={timeline_data.Month}/>
                 <Calendar color={"#7B1EA2"} time={"July"}/>
                 <Module info={timeline_data.HKU}/>
-                <Calendar color={"#00BCD4"} time={"June"}/>
-                <Module info={timeline_data.Changbai}/>
+                {/*<Calendar color={"#00BCD4"} time={"June"}/>*/}
+                {/*<Module info={timeline_data.Changbai}/>*/}
                 {/*<Calendar color={"#81C784"} time={"February"}/>*/}
                 {/*<Module info={timeline_data.School}/>*/}
             </Grid>
@@ -98,6 +111,8 @@ const Module = ({info}) => {
                 return <Medication fontSize="large" sx={{color: info.color}}/>
             case "pets":
                 return <Pets fontSize="large" sx={{color: info.color}}/>
+            case "work":
+                return <Work fontSize="large" sx={{color: info.color}}/>
             default:
                 return <Flight fontSize="large" sx={{color: info.color}}/>
         }

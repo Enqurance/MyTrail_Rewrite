@@ -15,6 +15,12 @@ const Blogs = () => {
                 <Divider></Divider>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
+                <BlogCard info={items.australia}></BlogCard>
+            </Grid>
+            <Grid item xs={12} md={6} className="card-grid-style">
+                <BlogCard info={items.japan_2024}></BlogCard>
+            </Grid>
+            <Grid item xs={12} md={6} className="card-grid-style">
                 <BlogCard info={items.singapore}></BlogCard>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
@@ -24,7 +30,7 @@ const Blogs = () => {
                 <BlogCard info={items.malaysia}></BlogCard>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
-                <BlogCard info={items.japan}></BlogCard>
+                <BlogCard info={items.japan_2023}></BlogCard>
             </Grid>
             <Grid item xs={12} md={6} className="card-grid-style">
                 <BlogCard info={items.yantai}></BlogCard>

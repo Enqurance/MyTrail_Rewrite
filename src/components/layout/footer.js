@@ -29,7 +29,7 @@ const Footer = () => {
             </Grid>
             <Grid container justifyContent={"center"}>
                 <Grid item paddingTop={1} className={"layout-copyright"}>
-                    ©️{} Enqurance · 2023-2024
+                    ©️{} Enqurance · 2023-2025
                 </Grid>
             </Grid>
             <Grid container justifyContent={"center"}>

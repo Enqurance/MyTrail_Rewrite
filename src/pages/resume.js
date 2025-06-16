@@ -56,6 +56,38 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
+                    {XIAOMI.map((item) => (
+                        <ImageListItem
+                            key={item.img}
+                            style={{
+                                width: 80,
+                                height: 60,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            <img
+                                srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                                alt={item.title}
+                                loading="lazy"
+                                style={{ width: '60px', height: '60px', objectFit: 'contain' }}
+                            />
+                        </ImageListItem>
+                    ))}
+                </ImageList>
+
+            </Item>
+            <Item>
+                <Stack className="school-title">Xiaomi Tech.</Stack>
+                <Stack className="text-content">Algorithm Intern(Onsite) - Large Language Models (LLMs)</Stack>
+                <Stack className="text-content">2025.5 - Now, Beijing, China </Stack>
+            </Item>
+        </Stack>
+        <Stack direction="row">
+            <Item>
+                <ImageList cols={1}>
                     {PKUSE.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
                         <img
                             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
@@ -69,7 +101,7 @@ const Resume = () => {
             <Item>
                 <Stack className="school-title">PKUSE Co. </Stack>
                 <Stack className="text-content">Cooperative Intern(Onsite) - Algorithm Development</Stack>
-                <Stack className="text-content">2024.3 - Now, Beijing, China </Stack>
+                <Stack className="text-content">2024.3 - 2024.6, Beijing, China </Stack>
             </Item>
         </Stack>
         <Stack direction="row">
@@ -136,19 +168,19 @@ const Resume = () => {
                 Programming & Texting Languages:
             </Grid>
             <Grid item xs={12} className="text-content">
-                C, C++, Java, Python, Golang, Verilog, JavaScript, HTML, LaTeX, Markdown
+                C, C++, Java, Python, Golang, Verilog, JavaScript, HTML, LaTeX, Markdown,...
             </Grid>
             <Grid item xs={12} className="sub-sub-title">
                 Frameworks & Tools:
             </Grid>
             <Grid item xs={12} className="text-content">
-                React, Pytorch(Transformers, GNN, etc.), Vue, Linux, CMake, Django, Vivado
+                LLMs, Linux, ReAct, Git, Docker...
             </Grid>
             <Grid item xs={12} className="sub-sub-title">
                 Languages:
             </Grid>
             <Grid item xs={12} className="text-content">
-                Chinese (Native), English (IELTS Band 7)
+                Chinese (Native), English (IELTS Band 7), Japanese(Novice)
             </Grid>
         </Grid>
         {/*<Grid container style={{paddingTop: '20px'}}>*/}
@@ -174,6 +206,10 @@ const NTU = [{
 
 const PKUSE = [{
     img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202403191924143.jpg", title: "PKUSE"
+}]
+
+const XIAOMI = [{
+    img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202506162329062.svg", title: "XIAOMI"
 }]
 
 

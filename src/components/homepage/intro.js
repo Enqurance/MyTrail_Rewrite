@@ -22,7 +22,8 @@ const SelfIntro = () => {
             <Grid item xs={12} className="self-intro">
                 I have many hobbies, among which programming, photography, and travelling are my favorites.
                 I also play League of Legends(LOL) and Valorant for recreation😆.
-                I do LLM related research topics at both BUAA and NUS.
+                I do LLM related research topics at both BUAA and NUS. I am truly honored to be supervised by Professor
+                Bryan, a kind, responsible, and supportive supervisor whose guidance I deeply value.
             </Grid>
             <Grid item xs={12}>
                 <MyImageList info={changbai}/>
@@ -153,6 +154,14 @@ const items = [
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020017110.png",
         title: "Erenrat Zeng(Now MA. at ANU)"
+    },
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202506162357607.jpeg",
+        title: "An unforgettable journey with Erenrat in Australia!"
+    },
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202506170008560.jpeg",
+        title: "Meeting Dr. Guo in Singapore"
     }
 ]
 export default SelfIntro
