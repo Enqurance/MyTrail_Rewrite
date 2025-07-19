@@ -17,7 +17,6 @@ const SelfIntro = () => {
                 , I am currently a master student of National University of Singapore
                 (NUS). Before that, I obtained my bachelor's degree in Computer Science
                 from Beihang University(Also known as BUAA).
-                I live in Beijing, Foshan🇨🇳 and Singapore🇸🇬.
             </Grid>
             <Grid item xs={12} className="self-intro">
                 I have many hobbies, among which programming, photography, and travelling are my favorites.
