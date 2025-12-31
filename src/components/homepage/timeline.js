@@ -29,6 +29,12 @@ const Timeline = () => {
                 </Divider>
             </Grid>
             <Grid item xs={12} paddingLeft={2}>
+                <Calendar color={"#E30A17"} time={"December"} />
+                <Module info={timeline_data.Turkey}/>
+                <Calendar color={"#0B6623"} time={"November"}/>
+                <Module info={timeline_data.EMNLP}/>
+            </Grid>
+            <Grid item xs={12} paddingLeft={2}>
                 <Calendar color={"#FF6900"} time={"May"}/>
                 <Module info={timeline_data.Xiaomi}/>
                 <Calendar color={"#42A5F5"} time={"January"}/>
@@ -65,11 +71,11 @@ const Timeline = () => {
                 {/*<Calendar color={"#2F7D32"} time={"October"}/>*/}
                 {/*<Module info={timeline_data.Yantai}/>*/}
                 {/*<Module info={timeline_data.National}/>*/}
-                <Calendar color={"#EF6C00"} time={"September"}/>
-                <Module info={timeline_data.Changsha}/>
-                <Module info={timeline_data.Xiaan}/>
-                <Calendar color={"#FBC02D"} time={"August"}/>
-                <Module info={timeline_data.Month}/>
+                {/*<Calendar color={"#EF6C00"} time={"September"}/>*/}
+                {/*<Module info={timeline_data.Changsha}/>*/}
+                {/*<Module info={timeline_data.Xiaan}/>*/}
+                {/*<Calendar color={"#FBC02D"} time={"August"}/>*/}
+                {/*<Module info={timeline_data.Month}/>*/}
                 <Calendar color={"#7B1EA2"} time={"July"}/>
                 <Module info={timeline_data.HKU}/>
                 {/*<Calendar color={"#00BCD4"} time={"June"}/>*/}

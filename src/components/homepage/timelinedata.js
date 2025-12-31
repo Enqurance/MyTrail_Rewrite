@@ -1,9 +1,23 @@
 const timeline_data = {
+    Turkey: {
+        link: "",
+        color: "#E30A17",
+        time: "12.1 - 12.11",
+        context: "I travelled to Türkiye🇹🇷 with Xindu Yu, exploring cities in Anatolia.",
+        logo: "flight"
+    },
+    EMNLP: {
+        link: "",
+        color: "#0B6623",
+        time: "11.3 - 11.10",
+        context: "I attended EMNLP'25, Suzhou, China🇨🇳",
+        logo: "school"
+    },
     Xiaomi: {
         link: "",
         color: "#FF6900",
-        time: "5.22",
-        context: "I start an internship as an algorithm engineer at Xiaomi. I work on Large Language Models.",
+        time: "5.22 - 9.23",
+        context: "I did an internship as an algorithm engineer at Xiaomi. I work on Large Language Models.",
         logo: "work"
     },
     Japan_2025: {
@@ -16,7 +30,7 @@ const timeline_data = {
     Australia: {
         link: "posts/2024/australia",
         color: "#00BCD4",
-        time: "12.10",
+        time: "12.10 - 12.21",
         context: "I travelled to Australia for holiday.",
         logo: "flight"
     },
@@ -109,8 +123,8 @@ const timeline_data = {
     HKU: {
         link: "",
         color: "#7B1EA2",
-        time: "Starting from 7.16",
-        context: "I arrived at HKU for an Internship🇭🇰",
+        time: "7.16 - 9.1",
+        context: "I was doing an Internship at HKU🇭🇰",
         logo: "science"
     },
     Changbai: {

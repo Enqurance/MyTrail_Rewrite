@@ -123,6 +123,14 @@ const items = [
         title: "My Graduation, the photo is taken at THU"
     },
     {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/99c69e67b8e1566e94a2374c60787197.jpg",
+        title: "Visted Taiwan with Songxiao. We travelled around Taiwan island."
+    },
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/d065fa82a3b46c1f4d2bb0be2c601556.jpg",
+        title: "Visted Türkiye with Xindu Yu (MA. at NUS)"
+    },
+    {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281605982.png",
         title: "Visited Japan with Raywha Chen, X. Tuo(Now Ph.D at THU), Q. Zhang(Now MA. at THU), 2024"
     },
@@ -132,7 +140,7 @@ const items = [
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020000127.png",
-        title: "Raywha Chen(Now Ph.D at THU)",
+        title: "Ruihua Chen(Now Ph.D at THU)",
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020002390.jpeg",
