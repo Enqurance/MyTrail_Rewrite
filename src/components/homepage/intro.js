@@ -127,6 +127,10 @@ const items = [
         title: "Visted Taiwan with Songxiao. We travelled around Taiwan island."
     },
     {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/6778bc4b40999eccc90c57234404546c.jpg",
+        title: "EMNLP'25 with Bryan's group"
+    },
+    {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/d065fa82a3b46c1f4d2bb0be2c601556.jpg",
         title: "Visted Türkiye with Xindu Yu (MA. at NUS)"
     },
