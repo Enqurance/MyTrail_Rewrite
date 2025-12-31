@@ -1,16 +1,30 @@
 const timeline_data = {
+    Taiwan: {
+        link: "",
+        color: "#E30A17",
+        time: "12.24 - 1.3",
+        context: "I travelled to Taiwan🏝️ with Songxiao.",
+        logo: "landscape"
+    },
+    Egypt: {
+        link: "",
+        color: "#E30A17",
+        time: "12.11 - 12.21",
+        context: "I travelled to Egypt🇪🇬 with a group of nice friends.",
+        logo: "airport"
+    },
     Turkey: {
         link: "",
         color: "#E30A17",
-        time: "12.1 - 12.11",
+        time: "12.1 - 12.10",
         context: "I travelled to Türkiye🇹🇷 with Xindu Yu, exploring cities in Anatolia.",
-        logo: "flight"
+        logo: ""
     },
     EMNLP: {
         link: "",
         color: "#0B6623",
         time: "11.3 - 11.10",
-        context: "I attended EMNLP'25, Suzhou, China🇨🇳",
+        context: "I attended EMNLP'25 conference, Suzhou, China🇨🇳",
         logo: "school"
     },
     Xiaomi: {
@@ -24,7 +38,7 @@ const timeline_data = {
         link: "",
         color: "#42A5F5",
         time: "1.12 - 1.18",
-        context: "I visited Japan🇯🇵 with Dr. Guo again. This time we travelled in Hokkaido❄️",
+        context: "I visited Japan🇯🇵 with Songxiao again. This time we travelled in Hokkaido❄️",
         logo: "flight"
     },
     Australia: {
@@ -81,7 +95,7 @@ const timeline_data = {
         link: "/posts/2023/japan",
         color: "#6D4C41",
         time: "11.3 - 11.12",
-        context: "I visited Japan🇯🇵 With Dr. Guo【Blog】",
+        context: "I visited Japan🇯🇵 With Songxiao【Blog】",
         logo: "flight",
         title: "Japan-2023"
     },

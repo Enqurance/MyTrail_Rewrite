@@ -128,11 +128,15 @@ const items = [
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/6778bc4b40999eccc90c57234404546c.jpg",
-        title: "EMNLP'25 with Bryan's group"
+        title: "EMNLP'25 with Bryan's group, wonderful trip!"
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/d065fa82a3b46c1f4d2bb0be2c601556.jpg",
         title: "Visted Türkiye with Xindu Yu (MA. at NUS)"
+    },
+    {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/94f9c227ce198f2830677a06c98e5ace.jpg",
+        title: "Egypt trip with friends."
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281605982.png",
@@ -148,7 +152,7 @@ const items = [
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020002390.jpeg",
-        title: "Alxa Union, 2021-2024",
+        title: "Alxa Union, my friends at BUAA",
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202311020004159.jpeg",
@@ -172,7 +176,7 @@ const items = [
     },
     {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202506170008560.jpeg",
-        title: "Meeting Dr. Guo in Singapore"
+        title: "Meeting Songxiao and his friend in Singapore"
     }
 ]
 export default SelfIntro
