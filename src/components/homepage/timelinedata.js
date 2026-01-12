@@ -3,7 +3,7 @@ const timeline_data = {
         link: "",
         color: "#032EA1",
         time: "12.24 - 1.3",
-        context: "I travelled to Taiwan🇰🇭 with Yufei.",
+        context: "I travelled to Cambodia🇰🇭 with Yufei.",
         logo: "temple"
     },
     Taiwan: {
