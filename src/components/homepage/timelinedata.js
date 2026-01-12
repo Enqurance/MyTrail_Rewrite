@@ -1,9 +1,16 @@
 const timeline_data = {
+    Cambodia: {
+        link: "",
+        color: "#032EA1",
+        time: "12.24 - 1.3",
+        context: "I travelled to Taiwan🇰🇭 with Yufei.",
+        logo: "temple"
+    },
     Taiwan: {
         link: "",
         color: "#E30A17",
         time: "12.24 - 1.3",
-        context: "I travelled to Taiwan🏝️ with Songxiao.",
+        context: "I travelled to Taiwan🌊 with Songxiao.",
         logo: "landscape"
     },
     Egypt: {

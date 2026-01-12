@@ -11,7 +11,8 @@ import {
     Medication,
     Pets, Work,
     AirportShuttle,
-    Landscape
+    Landscape,
+    TempleBuddhist
 } from "@mui/icons-material";
 import Grid from "@mui/material/Grid";
 import Stack from '@mui/material/Stack';
@@ -41,6 +42,15 @@ const Timeline = () => {
                 }}
             >
                 <Grid container>
+                    <Grid item xs={12} style={{paddingTop: 20}} className="year-text">
+                        <Divider textAlign="left">2026</Divider>
+                    </Grid>
+
+                    <Grid item xs={12} paddingLeft={2}>
+                        <Calendar color={"#032EA1"} time={"January"} />
+                        <Module info={timeline_data.Cambodia}/>
+                    </Grid>
+
                     <Grid item xs={12} style={{paddingTop: 20}} className="year-text">
                         <Divider textAlign="left">2025</Divider>
                     </Grid>
@@ -137,6 +147,8 @@ const Module = ({info}) => {
                 return <AirportShuttle fontSize="large" sx={{color: info.color}}/>
             case "landscape":
                 return <Landscape fontSize="large" sx={{color: info.color}}/>
+            case "temple":
+                return <TempleBuddhist fontSize="large" sx={{color: info.color}}/>
             default:
                 return <Flight fontSize="large" sx={{color: info.color}}/>
         }

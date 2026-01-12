@@ -119,6 +119,10 @@ const cats = {
 
 const items = [
     {
+        img: "https://raw.githubusercontent.com/Enqurance/Figures/main/ca6a8bba2467c7dab9a44919c60784b0.jpg",
+        title: "Cambodia trip with Yufei. A nice place to explore!"
+    },
+    {
         img: "https://raw.githubusercontent.com/Enqurance/Figures/main/202408281602813.png",
         title: "My Graduation, the photo is taken at THU"
     },
