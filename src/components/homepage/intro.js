@@ -25,7 +25,7 @@ const SelfIntro = () => {
                 Bryan, a kind, responsible, and supportive supervisor whose guidance I deeply value.
             </Grid>
             <Grid item xs={12}>
-                <MyImageList info={changbai}/>
+                <MyImageList info={istanbul}/>
             </Grid>
             <Grid item xs={12} className="self-intro">
                 I own two lovely cats🐱, Xiangxiang and Oubao. Together with my parents,
@@ -95,6 +95,18 @@ const changbai = {
         {
             "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/202403031816454.png",
             "title": "changbai"
+        }
+    ],
+    "width": "100%",
+    "col": 1
+}
+
+const istanbul = {
+    "caption": "This was taken at Istanbul, 2025",
+    "images": [
+        {
+            "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/c374677c0422b5d75d12e595770424bb.png",
+            "title": "istanbul"
         }
     ],
     "width": "100%",
