@@ -89,18 +89,6 @@ const ImageCarousel = () => {
     );
 };
 
-const changbai = {
-    "caption": "This was taken on Changbai Mountain in Jul. 2023",
-    "images": [
-        {
-            "img": "https://raw.githubusercontent.com/Enqurance/Figures/main/202403031816454.png",
-            "title": "changbai"
-        }
-    ],
-    "width": "100%",
-    "col": 1
-}
-
 const istanbul = {
     "caption": "This was taken at Istanbul, 2025",
     "images": [
