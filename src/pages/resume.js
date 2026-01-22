@@ -14,25 +14,6 @@ const Resume = () => {
         <Stack direction="row">
             <Item>
                 <ImageList cols={1}>
-                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
-                        <img
-                            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                            alt={item.title}
-                            loading="lazy"
-                        />
-                    </ImageListItem>))}
-                </ImageList>
-            </Item>
-            <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
-                <Stack className="school-title">Beihang University(Former BUAA)</Stack>
-                <Stack className="text-content">Bachelor of Engineering - Computer Science and Engineering</Stack>
-                <Stack className="text-content">2020.9 - 2024.7, Beijing, China</Stack>
-            </Item>
-        </Stack>
-        <Stack direction="row">
-            <Item>
-                <ImageList cols={1}>
                     {NUS.map((item) => (<ImageListItem key={item.img}
                                                        style={{width: 60, marginRight: 10, marginLeft: 10}}>
                         <img
@@ -47,7 +28,26 @@ const Resume = () => {
             <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
                 <Stack className="school-title">National University of Singapore(NUS)</Stack>
                 <Stack className="text-content">Master of Science - Computer Science</Stack>
-                <Stack className="text-content">2024.8 - Now, Singapore(Expected Completion: 2026.1)</Stack>
+                <Stack className="text-content">2024.8 - 2026.1</Stack>
+            </Item>
+        </Stack>
+        <Stack direction="row">
+            <Item>
+                <ImageList cols={1}>
+                    {BUAA.map((item) => (<ImageListItem key={item.img} style={{width: 80}}>
+                        <img
+                            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                            alt={item.title}
+                            loading="lazy"
+                        />
+                    </ImageListItem>))}
+                </ImageList>
+            </Item>
+            <Item style={{paddingLeft: '20px', paddingTop: '20px'}}>
+                <Stack className="school-title">Beihang University(Former BUAA)</Stack>
+                <Stack className="text-content">Bachelor of Engineering - Computer Science and Engineering</Stack>
+                <Stack className="text-content">2020.9 - 2024.7, Beijing, China</Stack>
             </Item>
         </Stack>
         <Grid container style={{paddingTop: '20px'}}>
@@ -72,7 +72,7 @@ const Resume = () => {
                                 src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
                                 alt={item.title}
                                 loading="lazy"
-                                style={{ width: '60px', height: '60px', objectFit: 'contain' }}
+                                style={{width: '60px', height: '60px', objectFit: 'contain'}}
                             />
                         </ImageListItem>
                     ))}
@@ -81,8 +81,8 @@ const Resume = () => {
             </Item>
             <Item>
                 <Stack className="school-title">Xiaomi Tech.</Stack>
-                <Stack className="text-content">Algorithm Intern(Onsite) - Large Language Models (LLMs)</Stack>
-                <Stack className="text-content">2025.5 - Now, Beijing, China </Stack>
+                <Stack className="text-content">Algorithm Intern(Onsite) - Large Language Models (LLMs), Xiaoai</Stack>
+                <Stack className="text-content">2025.5 - 2025.9, China </Stack>
             </Item>
         </Stack>
         <Stack direction="row">
